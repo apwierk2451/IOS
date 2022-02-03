@@ -16,6 +16,8 @@
 		185927DA275F2E270062C2F1 /* BountyListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185927D9275F2E270062C2F1 /* BountyListUITests.swift */; };
 		185927DC275F2E270062C2F1 /* BountyListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185927DB275F2E270062C2F1 /* BountyListUITestsLaunchTests.swift */; };
 		185927E9275F2EF60062C2F1 /* BountyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185927E8275F2EF60062C2F1 /* BountyViewController.swift */; };
+		18C6FE9827AA6CED00309496 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6FE9727AA6CED00309496 /* DetailViewController.swift */; };
+		18C6FE9A27ABBE0000309496 /* BountyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6FE9927ABBE0000309496 /* BountyInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		185927D9275F2E270062C2F1 /* BountyListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyListUITests.swift; sourceTree = "<group>"; };
 		185927DB275F2E270062C2F1 /* BountyListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		185927E8275F2EF60062C2F1 /* BountyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyViewController.swift; sourceTree = "<group>"; };
+		18C6FE9727AA6CED00309496 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		18C6FE9927ABBE0000309496 /* BountyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				185927B8275F2E260062C2F1 /* AppDelegate.swift */,
 				185927BA275F2E260062C2F1 /* SceneDelegate.swift */,
+				18C6FE9727AA6CED00309496 /* DetailViewController.swift */,
+				18C6FE9927ABBE0000309496 /* BountyInfo.swift */,
 				185927E8275F2EF60062C2F1 /* BountyViewController.swift */,
 				185927BE275F2E260062C2F1 /* Main.storyboard */,
 				185927C1275F2E270062C2F1 /* Assets.xcassets */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C6FE9A27ABBE0000309496 /* BountyInfo.swift in Sources */,
 				185927E9275F2EF60062C2F1 /* BountyViewController.swift in Sources */,
 				185927B9275F2E260062C2F1 /* AppDelegate.swift in Sources */,
 				185927BB275F2E260062C2F1 /* SceneDelegate.swift in Sources */,
+				18C6FE9827AA6CED00309496 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
