@@ -1,13 +1,8 @@
-//
-//  AppDelegate.swift
-//  TodoList
-//
-//  Created by 이은찬 on 2021/11/23.
-//
+
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
