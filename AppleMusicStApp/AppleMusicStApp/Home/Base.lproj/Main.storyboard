@@ -83,7 +83,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="alZ-uC-TQS">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="alZ-uC-TQS">
                                             <rect key="frame" x="8" y="61" width="398" height="200"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="200" id="qnG-5t-gyl"/>
@@ -96,8 +96,7 @@
                                         </imageView>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2r2-cZ-eB6">
                                             <rect key="frame" x="8" y="61" width="398" height="200"/>
-                                            <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                             <connections>
                                                 <action selector="cardTapped:" destination="Rjd-8p-gH0" eventType="touchUpInside" id="8L9-JS-AYT"/>
                                             </connections>
