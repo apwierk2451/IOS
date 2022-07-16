@@ -61,7 +61,7 @@ extension HomeViewController: UICollectionViewDataSource {
                 playerVC.simplePlayer.replaceCurrentItem(with: item)
                 self.present(playerVC, animated: true, completion: nil)
                 
-                print("---> item title : \(item.convertToTrack()?.title)")
+                print("---> item title : \(String(describing: item.convertToTrack()?.title))")
             }
                     
             // TODO: 헤더 구성하기
@@ -78,7 +78,7 @@ extension HomeViewController: UICollectionViewDelegate {
         // TODO: 곡 클릭시 플레이어뷰 띄우기
         let playerStoryboard = UIStoryboard.init(name: "Player", bundle: nil)
         guard let playerVC = playerStoryboard.instantiateViewController(identifier: "PlayerViewController") as? PlayerViewController else {return}
-        let item = trackManager.tracks[indexPath.item ]
+        let item = trackManager.tracks[indexPath.item]
         playerVC.simplePlayer.replaceCurrentItem(with: item)
         present(playerVC, animated: true, completion: nil)
     }
