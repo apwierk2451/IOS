@@ -28,6 +28,7 @@ class ViewController: UIViewController {
 
     @IBAction func PageChange(_ sender: UIPageControl) {
         myImageView.image = UIImage(named: img[PageControl.currentPage])
+        print(PageControl.currentPage)
     }
     
     func makeSingleTouch() {
